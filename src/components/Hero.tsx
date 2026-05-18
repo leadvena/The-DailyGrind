@@ -35,12 +35,20 @@ export default function Hero() {
             Handcrafted espresso and fresh pastries in the heart of downtown Stillwater.
           </p>
 
-          <a 
-            href="#menu" 
-            className="inline-block border-2 border-cream px-10 py-4 font-black uppercase text-xs tracking-[0.2em] hover:bg-cream hover:text-espresso transition-all duration-300"
-          >
-            See Our Menu
-          </a>
+          <div className="flex flex-wrap gap-4">
+            <a 
+              href="#menu" 
+              className="inline-block bg-white text-espresso px-10 py-4 font-black uppercase text-xs tracking-[0.2em] hover:bg-amber-light transition-all duration-300"
+            >
+              Order Online
+            </a>
+            <a 
+              href="#bookings" 
+              className="inline-block border-2 border-white px-10 py-4 font-black uppercase text-xs tracking-[0.2em] hover:bg-white hover:text-espresso transition-all duration-300"
+            >
+              Book Table
+            </a>
+          </div>
         </motion.div>
 
         <motion.div

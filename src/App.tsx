@@ -102,10 +102,8 @@ export default function App() {
           <Features />
           <AboutSection />
           <MenuSection />
-          <div className="grid grid-cols-1 gap-1 bg-amber-light/20 p-1">
-            <BookingForm />
-            <ContactSection />
-          </div>
+          <BookingForm />
+          <ContactSection />
         </main>
         <Footer />
         
