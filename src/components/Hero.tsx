@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/src/assets/images/hero_cafe_interior_1779088839314.png" 
+          src="/images/hero_interior.png" 
           alt="The Daily Grind Coffee Shop Interior" 
           className="w-full h-full object-cover scale-105"
         />

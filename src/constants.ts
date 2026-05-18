@@ -16,7 +16,7 @@ export const FEATURED_DRINKS = [
     name: "Classic Espresso",
     description: "Rich, full-bodied double shot with perfect crema.",
     price: "$3.50",
-    image: "/src/assets/images/espresso_shot_1779088858854.png"
+    image: "/images/espresso_shot.png"
   },
   {
     name: "Honey Amber Latte",
@@ -41,35 +41,35 @@ export const FEATURED_DRINKS = [
 export const MENU_CATEGORIES = [
   {
     name: "Espresso & Coffee",
-    image: "/src/assets/images/latte_art_pour_1779089691427.png",
+    image: "/images/latte_art.png",
     items: [
-      { name: "Americano", price: "$3.75", category: "Espresso & Coffee", image: "/src/assets/images/latte_art_pour_1779089691427.png" },
-      { name: "Cappuccino", price: "$4.50", category: "Espresso & Coffee", image: "/src/assets/images/latte_art_pour_1779089691427.png" },
-      { name: "Latte", price: "$4.75", category: "Espresso & Coffee", image: "/src/assets/images/latte_art_pour_1779089691427.png" },
-      { name: "Mocha", price: "$5.25", category: "Espresso & Coffee", image: "/src/assets/images/latte_art_pour_1779089691427.png" },
-      { name: "Drip Coffee", price: "$3.00", category: "Espresso & Coffee", image: "/src/assets/images/pour_over_coffee_serving_1779089823811.png" },
-      { name: "Pour Over", price: "$4.50", category: "Espresso & Coffee", image: "/src/assets/images/pour_over_coffee_serving_1779089823811.png" }
+      { name: "Americano", price: "$3.75", category: "Espresso & Coffee", image: "/images/latte_art.png" },
+      { name: "Cappuccino", price: "$4.50", category: "Espresso & Coffee", image: "/images/latte_art.png" },
+      { name: "Latte", price: "$4.75", category: "Espresso & Coffee", image: "/images/latte_art.png" },
+      { name: "Mocha", price: "$5.25", category: "Espresso & Coffee", image: "/images/latte_art.png" },
+      { name: "Drip Coffee", price: "$3.00", category: "Espresso & Coffee", image: "/images/pour_over.png" },
+      { name: "Pour Over", price: "$4.50", category: "Espresso & Coffee", image: "/images/pour_over.png" }
     ]
   },
   {
     name: "Breakfast Sandwiches",
-    image: "/src/assets/images/breakfast_sandwich_macro_1779089655995.png",
+    image: "/images/breakfast_sandwich.png",
     items: [
-      { name: "Bacon, Egg & Cheese", price: "$7.50", description: "Choice of bagel, croissant, or sourdough", category: "Breakfast Sandwiches", image: "/src/assets/images/breakfast_sandwich_macro_1779089655995.png" },
-      { name: "Sausage, Egg & Cheese", price: "$7.50", description: "Farm-fresh eggs and sharp cheddar", category: "Breakfast Sandwiches", image: "/src/assets/images/sausage_egg_cheese_sandwich_1779089878960.png" },
-      { name: "The Veggie Morning", price: "$8.25", description: "Avocado, spinach, tomato, and egg", category: "Breakfast Sandwiches", image: "/src/assets/images/breakfast_sandwich_macro_1779089655995.png" },
-      { name: "Daily Grind Special", price: "$9.00", description: "Double meat, double cheese, toasted bagel", category: "Breakfast Sandwiches", image: "/src/assets/images/breakfast_sandwich_macro_1779089655995.png" }
+      { name: "Bacon, Egg & Cheese", price: "$7.50", description: "Choice of bagel, croissant, or sourdough", category: "Breakfast Sandwiches", image: "/images/breakfast_sandwich.png" },
+      { name: "Sausage, Egg & Cheese", price: "$7.50", description: "Farm-fresh eggs and sharp cheddar", category: "Breakfast Sandwiches", image: "/images/sausage_sandwich.png" },
+      { name: "The Veggie Morning", price: "$8.25", description: "Avocado, spinach, tomato, and egg", category: "Breakfast Sandwiches", image: "/images/breakfast_sandwich.png" },
+      { name: "Daily Grind Special", price: "$9.00", description: "Double meat, double cheese, toasted bagel", category: "Breakfast Sandwiches", image: "/images/breakfast_sandwich.png" }
     ]
   },
   {
     name: "Pastries & Sweets",
-    image: "/src/assets/images/pastry_selection_cafe_1779089675236.png",
+    image: "/images/pastries.png",
     items: [
-      { name: "Butter Croissant", price: "$3.75", category: "Pastries & Sweets", image: "/src/assets/images/pastry_selection_cafe_1779089675236.png" },
-      { name: "Almond Danishes", price: "$4.25", category: "Pastries & Sweets", image: "/src/assets/images/pastry_selection_cafe_1779089675236.png" },
-      { name: "Blueberry Muffin", price: "$3.50", category: "Pastries & Sweets", image: "/src/assets/images/blueberry_muffin_macro_shot_1779089843059.png" },
-      { name: "Weekly Scone", price: "$3.75", category: "Pastries & Sweets", image: "/src/assets/images/blueberry_muffin_macro_shot_1779089843059.png" },
-      { name: "Chocolate Chip Cookie", price: "$2.50", category: "Pastries & Sweets", image: "/src/assets/images/cookies_on_wooden_table_1779089862445.png" }
+      { name: "Butter Croissant", price: "$3.75", category: "Pastries & Sweets", image: "/images/pastries.png" },
+      { name: "Almond Danishes", price: "$4.25", category: "Pastries & Sweets", image: "/images/pastries.png" },
+      { name: "Blueberry Muffin", price: "$3.50", category: "Pastries & Sweets", image: "/images/blueberry_muffin.png" },
+      { name: "Weekly Scone", price: "$3.75", category: "Pastries & Sweets", image: "/images/blueberry_muffin.png" },
+      { name: "Chocolate Chip Cookie", price: "$2.50", category: "Pastries & Sweets", image: "/images/cookies.png" }
     ]
   }
 ];

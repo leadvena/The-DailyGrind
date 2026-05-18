@@ -40,7 +40,7 @@ export default function App() {
       "@context": "https://schema.org",
       "@type": "CafeOrCoffeeShop",
       "name": CAFE_INFO.name,
-      "image": "/src/assets/images/latte_art_pour_1779089691427.png",
+      "image": "/images/latte_art.png",
       "@id": "",
       "url": window.location.origin,
       "telephone": CAFE_INFO.phone,
