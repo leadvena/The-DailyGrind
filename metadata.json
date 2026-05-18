@@ -1,0 +1,6 @@
+{
+  "name": "The Daily Grind Espresso Cafe",
+  "description": "Stillwater's oldest coffee shop. Handcrafted espresso drinks, breakfast sandwiches, and pastries in the heart of downtown Stillwater, MN.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
